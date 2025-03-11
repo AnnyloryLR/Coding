@@ -1,0 +1,18 @@
+.page{
+  height:100vh;
+  background-color:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.button{
+  height:100px;
+  width:330px;
+  border-radius:50px;
+  font-size:28px;
+  background-color:#70D3FF;
+  color:#008080;
+  font-weight:700;
+  
+}
