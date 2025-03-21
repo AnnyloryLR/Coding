@@ -8,14 +8,13 @@ function escolhendoNumeros(a){
                 let diferenca = 0;
                 for (let j =i; j < a.length; j++) {
                     diferenca -= a[i] - a[j]
-                     console.log(a[i], "-" ,a[j],"=",a[i] - a[j])
                     if(Math.abs(diferenca) <= 1){
                         array.push(a[j])                   
                     
                     }
                   
                 }
-                console.log(array)
+        
                 if(array.length > tamanho){
                     tamanho = array.length
                 }
@@ -33,7 +32,7 @@ function escolhendoNumeros(a){
                 }
               
             }
-            console.log(array)
+                
             if(array.length > tamanho){
                 tamanho = array.length
             }
